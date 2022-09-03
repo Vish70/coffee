@@ -19,20 +19,11 @@ body{
     /* color:rgba(114, 70, 20, 0.904); */
     font-weight:600;   
     filter: drop-shadow(8px 9.3px 2.8px);
-/* animation:coffee_blink1 .8s ease-in-out infinite; */
 }
 .head_name{
     transform:rotate(2deg);
 }
 
-/* @keyframes coffee_blink1{
-    50%{
-    color:rgba(114, 70, 20, 0.904);
-    }
-    100%{
-    color:rgba(83, 24, 24, 0.616);
-    }
-} */
 
 .main-btn{
     background-color:rgb(114, 70, 20);
@@ -341,7 +332,7 @@ footer{
 .coffee_logo_footer a{
     /* color:rgba(83, 24, 24, 0.849); */
     color:rgba(163, 114, 59, 0.678);
-    animation:coffee_blink .8s ease-in-out infinite;
+    animation:coffee_blink .8s ease-in infinite;
 }
 @keyframes coffee_blink{
     50%{
